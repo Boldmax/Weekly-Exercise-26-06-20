@@ -50,6 +50,7 @@ article{
     display: block;
     margin: 0% 25%;
     width: 500px;
+    text-justify: distribute-all-lines;
 }
 
 article p{
@@ -64,12 +65,15 @@ form{
 }
 .Name{
     border: 3px solid blue ;
+    margin: 10px 0px;
 }
 .Age{
     border: 3px solid green;
+    margin: 10px 0px;
 }
 .Email{
     border: 3px solid orange ;
+    margin: 10px 0px;
 }
 .tooltip:hover .tooltiptext{
     visibility: visible;
@@ -79,4 +83,12 @@ form{
 }
 .tooltip2:hover .tooltiptext2{
     visibility: visible;
+}
+button{
+    background-color: rgb(211, 163, 108);
+    width: 70px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
